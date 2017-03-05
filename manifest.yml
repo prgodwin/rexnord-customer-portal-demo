@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: rexnord-customer-portal-demo
+  host: rexnord-customer-portal-demo
+  disk_quota: 1024M
+  services:
+  - rexnord-customer-portal-demo-cloudantNoSQLDB
+  - Internet of Things Platform-prg20170304
